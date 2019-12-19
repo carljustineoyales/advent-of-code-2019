@@ -16,7 +16,7 @@ const alarm = (signal, noun = 12, verb = 2) =>{
             let x = code[code[i+1]] + code[code[i+2]];
             code[code[i+3]]=x;
             code[i] +=4;
-            i+=3
+            i+=3;
         }else if(code[i] === 2){
             let x = code[code[i+1]] * code[code[i+2]];
             code[code[i+3]]=x;
