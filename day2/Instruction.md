@@ -1,4 +1,6 @@
-<h1>PART ONE</h1>
+<h1>1202 Program Alarm</h1>
+
+<h2>PART ONE</h2>
 
 <p>On the way to your gravity assist around the Moon, your ship computer beeps angrily about a "1202 program alarm". On the radio, an Elf is already explaining how to handle the situation: "Don't worry, that's perfectly norma--" The ship computer bursts into flames.</p>
 
@@ -54,7 +56,7 @@ Step forward <strong>4</strong> positions to reach the next opcode, <strong>2</s
 
 <strong>Your puzzle answer was 4484226.</strong>
 
-<h1>PART TWO</h1>
+<h2>PART TWO</h2>
 <p>
 "Good, the new computer seems to be working correctly! Keep it nearby during this mission - you'll probably use it again. Real Intcode computers support many more features than your new one, but we'll let you know what they are as you need them."
 </p>
