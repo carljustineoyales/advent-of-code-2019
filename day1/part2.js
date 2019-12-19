@@ -101,26 +101,27 @@ const modules =[
 83866,
 ]
 
-const testing = [14]
+const testing = [1969,100756]
 
 const fuel = (input) =>{
-    let temp = 0;
-    let totalTemp = 0;
-
-    console.log(input);
+    let totalFuelPerModule = 0;
     let totalFuel = 0;
+    console.log(input);
+    
     const fuelCalculator = input.forEach(mass => {
         while (mass > 0) {
-            temp = Math.floor(mass/3)-2;
-            if (temp <= 0) {
+            mass = Math.floor(mass/3)-2;
+            if (mass <= 0) {
                 break;
             }
-            totalTemp += temp;
-            console.log(totalTemp)
+            totalFuelPerModule += mass;   
         }
+        console.log(totalFuelPerModule);
+        
     });
-    console.log(totalFuel)
-
+    totalFuel += totalFuelPerModule;
+    console.log(totalFuel);
+4900568
 }
 
-fuel(testing)
+fuel(modules)
